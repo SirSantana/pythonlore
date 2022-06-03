@@ -14,7 +14,8 @@ export default function Layout({children, title, description}){
       </Head>
         
         <main className={styles.main}>
-          <LogoInicio/>
+        <LogoInicio/>
+          
         {children}<Navbar/></main>
       <footer className={styles.footer}>
         <a

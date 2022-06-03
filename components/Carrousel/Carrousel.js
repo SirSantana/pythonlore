@@ -21,9 +21,8 @@ const ImagesData=[
     }
 ]
 export default function Carrousel() {
-     
     const [current, setCurrent] = useState(0)
-    const length = ImagesData.length
+    const length = ImagesData?.length
 
     
     const arrowLeft=()=>{
@@ -58,4 +57,10 @@ export default function Carrousel() {
 
     </>
   );
+}
+export async function getServerSideProps(){
+    
+    return{
+        props:{ImagesData}
+    }
 }
