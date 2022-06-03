@@ -43,7 +43,7 @@ export default function AcercaDe(){
         {pass && !user ?
         <form onSubmit={handleAdmin}>
             <input type="password" placeholder='password' name='password' required value={form.password} onChange={handleChange} className={styles1.input} />
-            <input className={styles1.input2} type='submit' value='Ingresar'/>
+            <input className={styles1.inputSubmit} type='submit' value='Ingresar'/>
         </form>
        : 
        null
