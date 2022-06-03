@@ -17,12 +17,12 @@ export default function AcercaDe(){
     const handleChange=(e)=>{
         setForm({...form, [e.target.name]: e.target.value})
     }
-    const handleAdmin=(e)=>{
+    const handleAdmin=async(e)=>{
         e.preventDefault()
-        if(form.password === process.env.ADMIN){
+         if(form.password === process.env.ADMIN){
             console.log('Hola');
-            localStorage.setItem('profile', 'Admin')
-            router.push('/panelAdmin')
+             localStorage.setItem('profile', 'Admin')
+             await router.push('/panelAdmin')
         }
         
     }
