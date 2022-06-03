@@ -12,37 +12,29 @@ export default function Carrousel() {
       
       <Carousel showArrows={true} centerSlidePercentage={60} centerMode={true} showThumbs={false} autoPlay  interval={3000}infiniteLoop={1}>
         <div >
-          <Image
+          <img
             src={"/images/IMG-9027.png"}
-            width={200}
-            height={180}
             alt={"/images/IMG-9027.png"}
             className={styles.image}
           />
         </div>
         <div>
-          <Image
+          <img
             src={"/images/IMG-9029.png"}
-            width={200}
-            height={180}
             alt={"/images/IMG-9029.png"}
             className={styles.image}
           />
         </div>
         <div>
-          <Image
+          <img
             src={"/images/IMG-9032.png"}
-            width={200}
-            height={180}
             alt={"/images/IMG-9032.png"}
             className={styles.image}
           />
         </div>
         <div>
-          <Image
+          <img
             src={"/images/IMG-9035.png"}
-            width={200}
-            height={180}
             alt={"/images/IMG-9035.png"}
             className={styles.image}
           />
