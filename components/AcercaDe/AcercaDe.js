@@ -17,12 +17,12 @@ export default function AcercaDe(){
     const handleChange=(e)=>{
         setForm({...form, [e.target.name]: e.target.value})
     }
-    const handleAdmin=async(e)=>{
+    const handleAdmin=(e)=>{
         e.preventDefault()
          if(form.password === process.env.ADMIN){
             console.log('Hola');
              localStorage.setItem('profile', 'Admin')
-             await router.push('/panelAdmin')
+              router.push('/panelAdmin')
         }
         
     }
@@ -34,7 +34,7 @@ export default function AcercaDe(){
     useEffect(()=>{
         setUser(localStorage.getItem('profile'))
   
-      },[])
+      },[user])
     
     return(
         <>
