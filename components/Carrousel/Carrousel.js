@@ -1,26 +1,27 @@
-import { ImagesData } from "./ImagesData";
 import Image from 'next/image'
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
 import styles from './Carousel.module.css'
-export default function Carrousel({slides}) {
-     const ImagesData=[
-        {
-            image:'/images/IMG-9027.png'
-        },
-        {
-            image:'/images/IMG-9029.png'
-    
-        },
-        {
-            image:'/images/IMG-9032.png'
-    
-        },
-        {
-            image:'/images/IMG-9035.png'
-    
-        }
-    ]
+
+const ImagesData=[
+    {
+        image:'/images/IMG-9027.png'
+    },
+    {
+        image:'/images/IMG-9029.png'
+
+    },
+    {
+        image:'/images/IMG-9032.png'
+
+    },
+    {
+        image:'/images/IMG-9035.png'
+
+    }
+]
+export default function Carrousel() {
+     
     const [current, setCurrent] = useState(0)
     const length = ImagesData.length
 
@@ -35,6 +36,7 @@ export default function Carrousel({slides}) {
     if(!Array.isArray(ImagesData) || ImagesData.length <=0){
         return null
     }
+    
   return (
     <>
     <section className={styles.slider}>
