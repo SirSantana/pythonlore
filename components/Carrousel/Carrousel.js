@@ -13,7 +13,7 @@ export default function Carrousel() {
       <Carousel showArrows={true} centerSlidePercentage={60} centerMode={true} showThumbs={false} autoPlay  interval={3000}infiniteLoop={1}>
         <div >
           <Image
-            src={"/IMG-9027.png"}
+            src={"/images/IMG-9027.png"}
             width={200}
             height={180}
             alt={"/IMG-9027.png"}
@@ -22,7 +22,7 @@ export default function Carrousel() {
         </div>
         <div>
           <Image
-            src={"/IMG-9029.png"}
+            src={"/images/IMG-9029.png"}
             width={200}
             height={180}
             alt={"/IMG-9029.png"}
@@ -31,7 +31,7 @@ export default function Carrousel() {
         </div>
         <div>
           <Image
-            src={"/IMG-9032.png"}
+            src={"/images/IMG-9032.png"}
             width={200}
             height={180}
             alt={"/IMG-9032.png"}
@@ -40,7 +40,7 @@ export default function Carrousel() {
         </div>
         <div>
           <Image
-            src={"/serpiente.png"}
+            src={"/images/serpiente.png"}
             width={200}
             height={180}
             alt={"/IMG-9035.png"}
