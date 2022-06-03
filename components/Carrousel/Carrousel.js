@@ -3,24 +3,25 @@ import {useState, useEffect} from 'react'
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
 import styles from './Carousel.module.css'
 
-const ImagesData=[
-    {
-        image:'/images/IMG-9027.png'
-    },
-    {
-        image:'/images/IMG-9029.png'
 
-    },
-    {
-        image:'/images/IMG-9032.png'
-
-    },
-    {
-        image:'/images/IMG-9035.png'
-
-    }
-]
 export default function Carrousel() {
+    const ImagesData=[
+        {
+            image:'/images/IMG-9027.png'
+        },
+        {
+            image:'/images/IMG-9029.png'
+    
+        },
+        {
+            image:'/images/IMG-9032.png'
+    
+        },
+        {
+            image:'/images/IMG-9035.png'
+    
+        }
+    ]
     const [current, setCurrent] = useState(0)
     const length = ImagesData?.length
 
@@ -55,10 +56,4 @@ export default function Carrousel() {
 
     </>
   );
-}
-export async function getServerSideProps(){
-    
-    return{
-        props:{ImagesData}
-    }
 }
