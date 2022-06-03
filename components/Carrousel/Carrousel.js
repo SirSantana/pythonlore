@@ -10,32 +10,40 @@ export default function Carrousel() {
   return (
     <>
       
-      <Carousel showArrows={true}  centerSlidePercentage={40} centerMode={true} showThumbs={false} autoPlay interval={3000} infiniteLoop={1}>
-        <div style={{marginRight:'30px'}}>
-          <img
-            src={"/IMG-9027.png"}
-            alt={"/IMG-9027.png"}
+      <Carousel showArrows={true} centerSlidePercentage={60} centerMode={true} showThumbs={false} autoPlay  interval={3000}infiniteLoop={1}>
+        <div >
+          <Image
+            src={"/images/IMG-9027.png"}
+            width={200}
+            height={180}
+            alt={"/images/IMG-9027.png"}
             className={styles.image}
           />
         </div>
-        <div style={{marginRight:'30px'}}>
-          <img
-            src={"/IMG-9029.png"}
-            alt={"/IMG-9029.png"}
+        <div>
+          <Image
+            src={"/images/IMG-9029.png"}
+            width={200}
+            height={180}
+            alt={"/images/IMG-9029.png"}
             className={styles.image}
           />
         </div>
-        <div style={{marginRight:'30px'}}>
-          <img
-            src={"/IMG-9032.png"}
-            alt={"/IMG-9032.png"}
+        <div>
+          <Image
+            src={"/images/IMG-9032.png"}
+            width={200}
+            height={180}
+            alt={"/images/IMG-9032.png"}
             className={styles.image}
           />
         </div>
-        <div style={{marginRight:'30px'}}>
-          <img
-            src={"/IMG-9035.png"}
-            alt={"/IMG-9035.png"}
+        <div>
+          <Image
+            src={"/images/IMG-9035.png"}
+            width={200}
+            height={180}
+            alt={"/images/IMG-9035.png"}
             className={styles.image}
           />
         </div>
