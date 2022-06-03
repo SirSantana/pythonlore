@@ -40,7 +40,7 @@ export default function Carrousel() {
         </div>
         <div>
           <Image
-            src={"/IMG-9035.png"}
+            src={"/serpiente.png"}
             width={200}
             height={180}
             alt={"/IMG-9035.png"}
