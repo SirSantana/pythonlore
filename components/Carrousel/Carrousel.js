@@ -24,12 +24,12 @@ export default function Carrousel({slides}) {
     <FaArrowAltCircleLeft className={styles.arrowLeft}onClick={arrowLeft}/>
     <FaArrowAltCircleRight className={styles.arrowRight} onClick={arrowRight}/>
 
-     {ImagesData.map((slide, index)=>{
+     {ImagesData?.map((slide, index)=>{
          return(
              <div className={index === current ? 'slide active': 'slide'} key={index}>
-             {index === current && (<Image src={slide.image} width={200} height={180} alt={index}  className={styles.image}/>)}
-             
-
+             {index === current 
+             && 
+             (<Image src={slide.image} width={200} height={180} alt={index}  className={styles.image}/>)}
              </div>
          )
      })}
