@@ -1,0 +1,39 @@
+.slider{
+    position: relative;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    border-radius: 10px;
+    width: 80vw;
+}
+.arrowLeft{
+    position: absolute;
+    top: 40%;
+    left:-60px;
+    font-size: 3rem;
+    color: white;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+.arrowRight{
+    position: absolute;
+    top: 40%;
+    right:-60px;
+    font-size: 3rem;
+    color: white;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+    
+}
+.arrowLeft:hover  {
+    color: #560bad;
+}
+.arrowRight:hover{
+    color: #560bad;
+
+}
