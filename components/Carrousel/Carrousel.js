@@ -22,7 +22,7 @@ export default function Carrousel() {
         </div>
         <div>
           <Image
-            src={"/images/IMG-9029.png"}
+            src={"/images/imgCar1.png"}
             width={200}
             height={180}
             alt={"/IMG-9029.png"}
@@ -31,7 +31,7 @@ export default function Carrousel() {
         </div>
         <div>
           <Image
-            src={"/images/IMG-9032.png"}
+            src={"/images/imgCar.png"}
             width={200}
             height={180}
             alt={"/IMG-9032.png"}
