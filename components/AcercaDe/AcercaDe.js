@@ -19,7 +19,7 @@ export default function AcercaDe(){
     }
     const handleAdmin=(e)=>{
         e.preventDefault()
-         if(form.password === process.env.ADMIN){
+         if(form.password === process.env.ADMIN === typeof window !== "undefined"){
             console.log('Hola');
              localStorage.setItem('profile', 'Admin')
               router.push('/panelAdmin')
