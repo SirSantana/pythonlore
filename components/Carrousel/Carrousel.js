@@ -32,9 +32,7 @@ export default function Carrousel() {
     const arrowRight=()=>{
         setCurrent(current === length -1 ? 0 : current + 1)
     }
-    if(!Array.isArray(ImagesData) || ImagesData.length <=0){
-        return null
-    }
+    
     
   return (
     <>
