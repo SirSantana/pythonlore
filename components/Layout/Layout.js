@@ -15,9 +15,9 @@ export default function Layout({children, title, description}){
         <main className={styles.main}>
           <Link href={'/'}>
           <Image
-          src={"/images/serpiente.png"}
-          width={200}
-          height={150}
+          src={"/images/PYTHON LOGO PAGINA INICIO.png"}
+          width={180}
+          height={130}
           alt={"Logo TH"}
         />
           </Link>
