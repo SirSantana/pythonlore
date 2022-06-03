@@ -16,7 +16,7 @@ export default function Carrousel() {
             src={"/IMG-9027.png"}
             width={200}
             height={180}
-            alt={"/images/IMG-9027.png"}
+            alt={"/IMG-9027.png"}
             className={styles.image}
           />
         </div>
@@ -25,7 +25,7 @@ export default function Carrousel() {
             src={"/IMG-9029.png"}
             width={200}
             height={180}
-            alt={"/images/IMG-9029.png"}
+            alt={"/IMG-9029.png"}
             className={styles.image}
           />
         </div>
@@ -34,7 +34,7 @@ export default function Carrousel() {
             src={"/IMG-9032.png"}
             width={200}
             height={180}
-            alt={"/images/IMG-9032.png"}
+            alt={"/IMG-9032.png"}
             className={styles.image}
           />
         </div>
@@ -43,7 +43,7 @@ export default function Carrousel() {
             src={"/IMG-9035.png"}
             width={200}
             height={180}
-            alt={"/images/IMG-9035.png"}
+            alt={"/IMG-9035.png"}
             className={styles.image}
           />
         </div>
