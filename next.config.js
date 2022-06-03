@@ -12,7 +12,7 @@ const nextConfig = {
     ADMIN:process.env.ADMIN
   },
   images: {
-    domains: ['localhost','https://pythonjoyas.vercel.app'],
+    domains: ['https://pythonjoyas.vercel.app'],
   },
 
 }
