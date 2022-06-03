@@ -10,29 +10,29 @@ export default function Carrousel() {
   return (
     <>
       
-      <Carousel showArrows={true} centerSlidePercentage={60} centerMode={true} showThumbs={false} autoPlay  interval={3000}infiniteLoop={1}>
-        <div >
+      <Carousel showArrows={true}  centerSlidePercentage={40} centerMode={true} showThumbs={false} autoPlay interval={3000} infiniteLoop={1}>
+        <div style={{marginRight:'30px'}}>
           <img
             src={"/images/IMG-9027.png"}
             alt={"/images/IMG-9027.png"}
             className={styles.image}
           />
         </div>
-        <div>
+        <div style={{marginRight:'30px'}}>
           <img
             src={"/images/IMG-9029.png"}
             alt={"/images/IMG-9029.png"}
             className={styles.image}
           />
         </div>
-        <div>
+        <div style={{marginRight:'30px'}}>
           <img
             src={"/images/IMG-9032.png"}
             alt={"/images/IMG-9032.png"}
             className={styles.image}
           />
         </div>
-        <div>
+        <div style={{marginRight:'30px'}}>
           <img
             src={"/images/IMG-9035.png"}
             alt={"/images/IMG-9035.png"}
