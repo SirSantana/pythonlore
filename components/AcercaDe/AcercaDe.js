@@ -48,7 +48,7 @@ export default function AcercaDe(){
        : 
        null
        }
-       {user && visible ? <button onClick={handleLogout} className={styles.button}>Cerrar Sesion</button>: null}
+       {user && visible ? <button onClick={handleLogout} className={styles.button} style={{fontSize:'13px'}}>Cerrar Sesion</button>: null}
         
         </div>
         </>
