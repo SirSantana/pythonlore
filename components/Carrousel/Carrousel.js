@@ -34,13 +34,15 @@ export default function Carrousel() {
         setCurrent(current === length -1 ? 0 : current + 1)
     }
     
+    useEffect(()=>{
+
+    },[current])
     
   return (
     <>
     <section className={styles.slider}>
     <FaArrowAltCircleLeft className={styles.arrowLeft}onClick={arrowLeft}/>
     <FaArrowAltCircleRight className={styles.arrowRight} onClick={arrowRight}/>
-
      {ImagesData?.map((slide, index)=>{
          return(
              <div className={index === current ? 'slide active': 'slide'} key={index}>
