@@ -4,8 +4,25 @@ import {useState} from 'react'
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
 import styles from './Carousel.module.css'
 export default function Carrousel({slides}) {
+     const ImagesData=[
+        {
+            image:'/images/IMG-9027.png'
+        },
+        {
+            image:'/images/IMG-9029.png'
+    
+        },
+        {
+            image:'/images/IMG-9032.png'
+    
+        },
+        {
+            image:'/images/IMG-9035.png'
+    
+        }
+    ]
     const [current, setCurrent] = useState(0)
-    const length = slides.length
+    const length = ImagesData.length
 
     
     const arrowLeft=()=>{
@@ -15,7 +32,7 @@ export default function Carrousel({slides}) {
     const arrowRight=()=>{
         setCurrent(current === length -1 ? 0 : current + 1)
     }
-    if(!Array.isArray(slides) || slides.length <=0){
+    if(!Array.isArray(ImagesData) || ImagesData.length <=0){
         return null
     }
   return (

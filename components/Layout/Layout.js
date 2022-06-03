@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Navbar from '../Navbar/Navbar'
 import styles from './Layout.module.css'
 import Link from 'next/link'
+import LogoInicio from '../LogoInicio/LogoInicio'
 export default function Layout({children, title, description}){
     return(
         <>
@@ -13,14 +14,7 @@ export default function Layout({children, title, description}){
       </Head>
         
         <main className={styles.main}>
-          <Link href={'/'}>
-          <Image
-          src={"/images/PYTHON LOGO PAGINA INICIO.png"}
-          width={180}
-          height={130}
-          alt={"Logo TH"}
-        />
-          </Link>
+          <LogoInicio/>
         {children}<Navbar/></main>
       <footer className={styles.footer}>
         <a
