@@ -68,18 +68,16 @@ export default function AcercaDe() {
               onChange={handleChange}
               className={styles1.input}
             />
-            <input
+            <button
+            className={styles.button}
               style={{
-                marginTop: "10px",
-                padding: "10px, 20px",
-                width: "50%",
-                height: "35px",
-                borderRadius: "5px",
-                cursor: " pointer",
+                marginLeft:0,
+                fontSize:'15px',
               }}
               type="submit"
-              value="Ingresar"
-            />
+            >
+              Ingresar
+            </button>
           </form>
         ) : null}
         {user && visible ? (

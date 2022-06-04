@@ -1,5 +1,6 @@
 import Layout from "../../components/Layout/Layout";
 import { useState, useEffect } from "react";
+import Admin from "../../components/Admin";
 
 export default function PanelAdmin(){
     const [user, setUser] = useState(null)
@@ -10,7 +11,7 @@ export default function PanelAdmin(){
     return(
         <>
         <Layout>
-            {user ? <h2 style={{color:'white'}}>Bienvenida Lore</h2>: <h2>Permiso Denegado</h2>}
+            {user ? <Admin/> : <h2>Permiso Denegado</h2>}
         </Layout>
         </>
     )
