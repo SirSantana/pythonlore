@@ -11,7 +11,7 @@ export default function Admin(){
         <button className={styles.button}>Crear Producto</button>
         </a>
         </Link>
-        <Link href={'/panelAdmin/newProduct'}>
+        <Link href={'/panelAdmin/inventario'}>
         <a>
         <button className={styles.button}>Inventario</button>
         </a>

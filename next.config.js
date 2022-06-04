@@ -8,7 +8,7 @@ const nextConfig = {
     BASE_URL:'http://localhost:3000',
     DBNAME: process.env.DBNAME,
     ACCESS_TOKEN_SECRET: "test",
-        REFRESH_TOKEN_SECRET: "test",
+    REFRESH_TOKEN_SECRET: "test",
     ADMIN:process.env.ADMIN
   },
   images: {
