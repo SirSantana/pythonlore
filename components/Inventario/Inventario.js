@@ -1,3 +1,4 @@
+import LogoInicio from "../LogoInicio/LogoInicio";
 
 
 export default function Inventario({el}){
