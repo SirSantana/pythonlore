@@ -4,7 +4,8 @@ export default function Inventario({el}){
     console.log(el);
     return(
         <>
-        <div>
+        
+        <div style={{height:'500px', width:'500px'}}>
         <h2>Bienvenida al Inventario</h2>
         <h2 style={{color:"white"}}><strong>Nombre:</strong>{el.nombre}</h2>
         <h2><b>Descripcion</b>{el.descripcion}</h2>
