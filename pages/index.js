@@ -21,7 +21,7 @@ export default function Home() {
           Python
         </h2>
         <h4 style={{ marginTop: 0, color: "#f1f1f1", textAlign: "center" }}>
-          Jewerly.
+          Jewelry.
         </h4>
         {/* <Image
           src={"/images/Logo THHH.png"}
@@ -39,7 +39,10 @@ export default function Home() {
           alt={"Logo TH"}
         />
         </div> */}
-        <Carrousel/>
+  <div style={{marginBottom:'50px'}}>
+  <Carrousel/>
+
+  </div>
       </div>
     </Layout>
   );

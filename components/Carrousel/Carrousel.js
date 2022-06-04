@@ -16,7 +16,7 @@ export default function Carrousel() {
             src={"/images/imgCar2.png"}
             width={200}
             height={180}
-            alt={"/IMG-9027.png"}
+            alt={"/imgCar2.png"}
             className={styles.image}
           />
         </div>
@@ -25,7 +25,7 @@ export default function Carrousel() {
             src={"/images/imgCar1.png"}
             width={200}
             height={180}
-            alt={"/IMG-9029.png"}
+            alt={"imgCar1.png"}
             className={styles.image}
           />
         </div>
@@ -34,7 +34,7 @@ export default function Carrousel() {
             src={"/images/imgCar.png"}
             width={200}
             height={180}
-            alt={"/IMG-9032.png"}
+            alt={"/imgCar.png"}
             className={styles.image}
           />
         </div>
@@ -43,7 +43,7 @@ export default function Carrousel() {
             src={"/images/imgCar3.png"}
             width={200}
             height={180}
-            alt={"/IMG-9035.png"}
+            alt={"imgCar3.png"}
             className={styles.image}
           />
         </div>
