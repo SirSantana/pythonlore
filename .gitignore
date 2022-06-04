@@ -2,7 +2,7 @@
 
 # dependencies
 /node_modules
-libs/*.js
+dbConnect.js
 /.pnp
 .pnp.js
 
