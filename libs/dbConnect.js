@@ -1,7 +1,7 @@
-import { MongoClient, ServerApiVersion } from 'mongodb';
+import { MongoClient } from 'mongodb';
 
-const MONGODB_URI = `${process.env.MONGODB_URI}`
-const MONGODB_DB = `python`;
+const MONGODB_URI = process.env.MONGODB_URI
+const MONGODB_DB = process.env.DB_NAME;
 
 // check the MongoDB URI
 if (!MONGODB_URI) {
@@ -30,7 +30,7 @@ export async function connectToDatabase() {
     const opts = {
         useNewUrlParser: true,
         useUnifiedTopology: true,
-        serverApi: ServerApiVersion.v1
+        
     };
 
     // Connect to cluster

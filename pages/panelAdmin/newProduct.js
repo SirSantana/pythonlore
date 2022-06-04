@@ -20,8 +20,8 @@ export default function NewProduct(){
           if (data.success) {
               // reset the fields
               // set the message
-              router.push('/panelAdmin/inventario')
-              return setMessage(data.message);
+              
+              return router.push('/panelAdmin/inventario')
           }
 
         } catch (error) {
