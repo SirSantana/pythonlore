@@ -43,6 +43,8 @@
    .button:hover:before {
     top: -30px;
     left: -30px;
+    background: #7f68b1;
+
    }
    
    .button:active:before {
