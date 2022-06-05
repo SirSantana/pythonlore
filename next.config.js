@@ -10,6 +10,7 @@ const nextConfig = {
     ACCESS_TOKEN_SECRET: "test",
     REFRESH_TOKEN_SECRET: "test",
     ADMIN:process.env.ADMIN,
+    NEXT_PUBLIC_PASSWORD:process.env.NEXT_PUBLIC_PASSWORD
 
   },
   images: {
