@@ -25,12 +25,12 @@ export default function Productos({el}){
           </div>
           <div className={styles.description}>
             <h2 className={styles.h2}>{el.nombre}</h2>
-            <h1>${el.precio}</h1>
+            <h1 style={{margin:'5px 0'}}>${el.precio}</h1>
             <p>
               {el.descripcion}
             </p>
             {/* <IoIosCart fontSize={'30px'}/> */}
-            <button className={styles1.button} style={{width:'90%', marginBottom:'20px', backgroundColor:'#7b51ad', color:'white'}}>Comprar</button>
+            <button className={styles1.button} style={{width:'90%', marginBottom:'20px'}}>Comprar</button>
           </div>
         </div>
       </div>

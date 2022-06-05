@@ -1,11 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,700);
 .description {
+     color: white;
       
     padding: 30px;
     float: left;
     width: 55%;
     border-left: 2px solid #6b4cad;
     height: 100%;
+    background-color: #453072;
     /* h1 {
       color: #515151;
       font-weight: 300;
@@ -98,15 +100,17 @@
       .description{
           display: flex;
           flex-direction: column;
-            margin-left: 15px;
-          width: 90%;
-          padding: 0;
+          margin-left: 0;
+          width: 100%;
     border-left: none;
     border-top: 2px solid #6b4cad;
+    height: 90%;
+    padding: 15px;
 
       }
       .h2{
           margin: 5px;
       }
+      
 }
     

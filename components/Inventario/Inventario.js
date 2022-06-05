@@ -27,12 +27,12 @@ export default function Inventario({ el }) {
           
           <div className={styles.description}>
             <h2 className={styles.h2}>{el.nombre}</h2>
-            <h1>${el.precio}</h1>
+            <h1 >${el.precio}</h1>
             <p>
               {el.descripcion}
             </p>
             {/* <IoIosCart fontSize={'30px'}/> */}
-            <button style={{width:'90%', marginBottom:'20px', backgroundColor:'#8855c2', color:'white'}} className={styles1.button}>Comprar</button>
+            <button style={{width:'90%', marginBottom:'20px'}} className={styles1.button}>Comprar</button>
           </div>
         </div>
       </div>
