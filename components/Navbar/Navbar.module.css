@@ -46,6 +46,6 @@
    }
    
    .button:active:before {
-    background: #3a0ca3;
+    background: #453072;
     transition: background 0s;
    }
