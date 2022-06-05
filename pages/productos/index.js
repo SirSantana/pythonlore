@@ -15,7 +15,7 @@ export default function ProductosPage({posts}){
 export async function getServerSideProps() {
     // get the current environment
     // request posts from api
-    let response = await fetch(`http://localhost:3000/api/productos`);
+    let response = await fetch(`https://pythonjoyas.vercel.app/api/productos`);
     // extract the data
     let data = await response.json();
 
