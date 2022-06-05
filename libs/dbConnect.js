@@ -1,6 +1,6 @@
 import { MongoClient } from 'mongodb';
 
-const MONGODB_URI = `mongodb+srv://santaNaN:${process.env.NEXT_PUBLIC_PASSWORD}@cluster0.exgvi.mongodb.net/?retryWrites=true&w=majority`;
+const MONGODB_URI = `mongodb+srv://santaNaN:C1Dgz8ycXDQVpHiB@cluster0.exgvi.mongodb.net/?retryWrites=true&w=majority`;
 const MONGODB_DB = 'python';
 
 // check the MongoDB URI
@@ -33,7 +33,8 @@ export async function connectToDatabase() {
     };
 
     // Connect to cluster
-    let client = new MongoClient(MONGODB_URI, opts);
+    let client = new MongoClient(`mongodb+srv://santaNaN:${process.env.NEXT_PUBLIC_PASSWORD}@cluster0.exgvi.mongodb.net/?retryWrites=true&w=majority`
+        , opts);
     await client.connect();
     let db = client.db(MONGODB_DB);
 
