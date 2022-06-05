@@ -21,9 +21,10 @@ export default function Inventario({ el }) {
         <div className={styles.card}>
           <div className={styles.photo}>
               <Image
-              alt='/images/serpiente.png' src={'/images/serpiente.png'} className={styles.img} width={150}height={200}
+              alt='/images/serpiente.png' src={'/images/serpiente.png'} width={230}height={200} className={styles.img} 
               />
           </div>
+          
           <div className={styles.description}>
             <h2 className={styles.h2}>{el.nombre}</h2>
             <h1>${el.precio}</h1>
@@ -31,7 +32,7 @@ export default function Inventario({ el }) {
               {el.descripcion}
             </p>
             {/* <IoIosCart fontSize={'30px'}/> */}
-            <button className={styles1.button} style={{width:'90%', marginBottom:'20px'}}>Comprar</button>
+            <button style={{width:'90%', marginBottom:'20px', backgroundColor:'#8855c2', color:'white'}} className={styles1.button}>Comprar</button>
           </div>
         </div>
       </div>

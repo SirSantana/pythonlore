@@ -10,6 +10,7 @@ export default function LogoInicio(){
           width={180}
           height={130}
           alt={"Logo TH"}
+          style={{cursor:'pointer'}}
         />
           </Link>
     )

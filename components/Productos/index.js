@@ -20,7 +20,7 @@ export default function Productos({el}){
         <div className={styles.card}>
           <div className={styles.photo}>
               <Image
-              alt='/images/serpiente.png' src={'/images/serpiente.png'} className={styles.img} width={150}height={200}
+              alt='/images/serpiente.png' src={'/images/serpiente.png'} className={styles.img} width={230}height={200}
               />
           </div>
           <div className={styles.description}>
@@ -30,7 +30,7 @@ export default function Productos({el}){
               {el.descripcion}
             </p>
             {/* <IoIosCart fontSize={'30px'}/> */}
-            <button className={styles1.button} style={{width:'90%', marginBottom:'20px'}}>Comprar</button>
+            <button className={styles1.button} style={{width:'90%', marginBottom:'20px', backgroundColor:'#7b51ad', color:'white'}}>Comprar</button>
           </div>
         </div>
       </div>
