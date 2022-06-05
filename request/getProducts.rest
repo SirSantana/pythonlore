@@ -1,1 +1,1 @@
-GET http://localhost:3000/api/productos
+GET https://pythonjoyas.vercel.app/api/productos
