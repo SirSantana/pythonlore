@@ -9,7 +9,8 @@ const nextConfig = {
     DBNAME: process.env.DBNAME,
     ACCESS_TOKEN_SECRET: "test",
     REFRESH_TOKEN_SECRET: "test",
-    ADMIN:process.env.ADMIN
+    ADMIN:process.env.ADMIN,
+
   },
   images: {
     domains: ['https://pythonjoyas.vercel.app'],
