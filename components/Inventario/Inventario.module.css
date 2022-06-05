@@ -7,8 +7,7 @@
     width: 55%;
     border-left: 2px solid #453072;
     height: 100%;
-    background-image: radial-gradient(circle at 37.72% -19.64%, #653c98 0, #432a78 100%);
-
+    background-color: #453072;
     /* h1 {
       color: #515151;
       font-weight: 300;
@@ -71,7 +70,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: fit-content;
   }
   .img { 
       max-height: 240px;

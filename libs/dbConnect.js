@@ -1,6 +1,7 @@
 import { MongoClient } from 'mongodb';
+const password = process.env.PASSWORD
 
-const MONGODB_URI = `mongodb+srv://santaNaN:C1Dgz8ycXDQVpHiB@cluster0.exgvi.mongodb.net/?retryWrites=true&w=majority`;
+const MONGODB_URI = `mongodb+srv://santaNaN:${password}@cluster0.exgvi.mongodb.net/?retryWrites=true&w=majority`;
 const MONGODB_DB = 'python';
 
 // check the MongoDB URI
