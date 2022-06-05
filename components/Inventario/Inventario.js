@@ -32,7 +32,7 @@ export default function Inventario({ el }) {
               {el.descripcion}
             </p>
             {/* <IoIosCart fontSize={'30px'}/> */}
-            <button style={{width:'90%', marginBottom:'20px'}} className={styles1.button}>Comprar</button>
+            <button style={{width:'90%', marginBottom:'0'}} className={styles1.button}>Comprar</button>
           </div>
         </div>
       </div>
