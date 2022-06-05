@@ -48,7 +48,7 @@ async function getPosts(req,res){
             .collection('Productos')
             .find({})
             .sort({ published: -1 })
-            .toArray();
+            .toArray()
         // return the posts
         return res.json({
             message: JSON.parse(JSON.stringify(posts)),

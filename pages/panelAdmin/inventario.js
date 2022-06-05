@@ -10,7 +10,7 @@ export default function InventarioServer({posts}){
     return(
         <Layout title={'Inventario | Python'}>
             <h2 style={{margin:0, color:'white'}}>Productos</h2>
-            {user ? posts?.message?.map(el=> <Inventario key={el._id} el={el}/>): null}
+             {posts?.message?.map(el=> <Inventario key={el._id} el={el}/>)}
         </Layout>
     )
 }
