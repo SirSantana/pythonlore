@@ -39,7 +39,13 @@ export default function AcercaDe() {
 
   return (
     <>
-      <div>
+      <div className={styles1.container}>
+        <div className={styles1.card}>
+          <h2 style={{color:'#b97cf1'}}>Acerca de Nosotros</h2>
+          <h4>Somos dos hermanos, Mrs.T (la serpiente verde) y Mr. H (la morada). Venimos de Python Verse, 
+            llevamos varios años atravesando el multiverso 
+          </h4>
+        </div>
         
       </div>
 
