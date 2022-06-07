@@ -5,7 +5,7 @@ export default async function getOnePost(){
     {
         method: "GET",
         headers: {
-            Accept: 'application/json, text/plain, */*',
+            Accept: 'application/json',
             'User-Agent': '*',
         },
       })
