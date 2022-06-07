@@ -9,8 +9,6 @@ export default async function getOnePost(){
             'User-Agent': '*',
         },
       })
-      let data =await res.json()
-       data = JSON.parse(JSON.stringify(data))
-    const posts = await data
+      const posts =await res.json()
     return posts
 }
