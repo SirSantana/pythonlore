@@ -9,6 +9,7 @@ export async function getPathsIds() {
       }
     }
   })
+  console.log("1",ids);
 
   return ids
 }

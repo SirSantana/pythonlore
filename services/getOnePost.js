@@ -4,13 +4,8 @@ export default async function getOnePost(){
     const res = await fetch("https://pythonjoyas.vercel.app/api/products",
     {
         method: "GET",
-        headers: {
-            Accept: 'application/json',
-            'User-Agent': '*',
-        },
+        headers: {"Content-type": "application/json"},
       })
-      let data =await res.json()
-       data = JSON.parse(JSON.stringify(res))
-    const posts = await data
+    const posts = await res.json()
     return posts
 }

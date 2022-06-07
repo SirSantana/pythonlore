@@ -4,6 +4,7 @@ import Image from 'next/image'
 import styles from "../Inventario/Inventario.module.css";
 import Link from 'next/link'
 import { convertToPath } from '../../libs/items';
+
 export default function Productos({el}){
     return(
         <>
