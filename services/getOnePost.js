@@ -1,7 +1,6 @@
-import { products } from "./products";
 
-export default async function getOnePost(){
-    const res = await fetch("https://pythonjoyas.vercel.app/api/products")
+export default async function getOnePost1(){
+    const res = await fetch("http://localhost:3000/api/products")
     try {
         console.error("Response body1:", res);  
 

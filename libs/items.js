@@ -1,4 +1,4 @@
-import getOnePost from "../services/getOnePost";
+import getOnePost from './getOnePost'
 
 export async function getPathsIds() {
   const posts = await getOnePost();
