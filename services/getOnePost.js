@@ -5,9 +5,8 @@ export default async function getOnePost(){
     {
         method: "GET",
         headers: {
-          // update with your user-agent
-          "User-Agent":'*',
-          Accept: "application/json; charset=UTF-8",
+            Accept: 'application/json, text/plain, */*',
+            'User-Agent': '*',
         },
       })
     const posts = await res.json()
