@@ -2,7 +2,8 @@
 import styles1 from '../Navbar/Navbar.module.css'
 import Image from 'next/image'
 import styles from "../Inventario/Inventario.module.css";
-
+import Link from 'next/link'
+import { convertToPath } from '../../libs/items';
 export default function Productos({el}){
     return(
         <>
@@ -14,6 +15,8 @@ export default function Productos({el}){
         <h2><b>Unidades</b>{el?.unidades}</h2>
         </div> */}
 
+      <Link href={`/productos/${convertToPath(el.nombre)}`}>
+      <a>
       <div
         className={styles.container}
       >
@@ -34,6 +37,8 @@ export default function Productos({el}){
           </div>
         </div>
       </div>
+      </a>
+      </Link>
     </>
     )
 }

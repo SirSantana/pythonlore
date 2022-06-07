@@ -3,6 +3,8 @@ import styles from "./Inventario.module.css";
 import { IoIosCart } from "react-icons/io";
 import styles1 from '../Navbar/Navbar.module.css'
 import Image from 'next/image'
+import Link from 'next/link'
+import { convertToPath } from "../../libs/items";
 export default function Inventario({ el }) {
   return (
     <>
@@ -14,7 +16,9 @@ export default function Inventario({ el }) {
         <h2><b>Unidades</b>{el?.unidades}</h2>
         </div> */}
 
-      <div
+     <Link href={`/productos/${convertToPath(el.nombre)}`}>
+     <a>
+     <div
         className={styles.container}
       >
         <div className={styles.card}>
@@ -42,6 +46,8 @@ export default function Inventario({ el }) {
           </div>
         </div>
       </div>
+     </a>
+     </Link> 
     </>
   );
 }

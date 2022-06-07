@@ -7,7 +7,7 @@ export const products=[
         "precio":"15.000",
         "unidades":"3",
         "referencia":"1234",
-        "_id":1
+        "id":1
     },
     {
         "nombre":"Collar Osito",
@@ -15,7 +15,7 @@ export const products=[
         "precio":"13.000",
         "unidades":"2",
         "referencia":"2131",
-        "_id":2
+        "id":2
 
     },
     {
@@ -24,7 +24,7 @@ export const products=[
         "precio":"12.000",
         "unidades":"5",
         "referencia":"2323",
-        "_id":3
+        "id":3
 
     }
 

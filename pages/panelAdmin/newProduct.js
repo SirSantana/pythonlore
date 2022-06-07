@@ -16,7 +16,6 @@ export default function NewProduct(){
             
           });
           let data = await res.json();
-          console.log(data);
           if (data.success) {
               // reset the fields
               // set the message
