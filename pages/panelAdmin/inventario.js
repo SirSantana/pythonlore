@@ -1,8 +1,7 @@
 import Inventario from "../../components/Inventario/Inventario";
 import Layout from "../../components/Layout/Layout";
 import {useState, useEffect} from 'react'
-import { products } from "../../services/products";
-export default function InventarioServer(){
+export default function InventarioServer({products}){
     const [user, setUser] = useState(null)
     useEffect(()=>{
         setUser(localStorage.getItem('profile'))
@@ -14,6 +13,22 @@ export default function InventarioServer(){
         </Layout>
     )
 }
+
+export async function getStaticProps(){
+    try {
+        const res = await fetch('https://pythonjoyas.vercel.app/api/products')
+        const data = await res.json()
+
+        return{
+            props:{
+                products:data
+            }
+        }
+    } catch (error) {
+        console.log(error)
+    }
+}
+
 
 // export async function getServerSideProps() {
 //     // get the current environment
