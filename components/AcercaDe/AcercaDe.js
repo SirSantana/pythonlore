@@ -41,10 +41,14 @@ export default function AcercaDe() {
     <>
       <div className={styles1.container}>
         <div className={styles1.card}>
-          <h2 style={{color:'#b97cf1'}}>Acerca de Nosotros</h2>
-          <h4>Somos dos hermanos, Mrs.T (la serpiente verde) y Mr. H (la morada). Venimos de Python Verse, 
-            llevamos varios años atravesando el multiverso 
-          </h4>
+          <h2 style={{color:'#b97cf1'}}>Acerca de Nosotros.</h2>
+          <h3>Somos dos hermanos, Mrs.T y Mr.H, dos serpientes pero no de tierra caliente, JE JE. Venimos de Python Verse, 
+            llevamos varios años atravesando el multiverso, en esta ocasion aterrizamos en tu planeta, ya 
+            hemos visitado lugares increibles, y recolectado algunas Joyas. Ahora 
+            estamos en Bogotá, Colombia y venimos a ofrecerte parte de nuestro planeta y dejar algo de Nosotros
+            en cada uno de los productos.
+            <h3 style={{color:'#b97cf1'}}>Un gusto, Mrs.T y Mr.H</h3>
+          </h3>
         </div>
         
       </div>

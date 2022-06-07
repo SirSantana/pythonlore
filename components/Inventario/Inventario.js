@@ -4,7 +4,6 @@ import { IoIosCart } from "react-icons/io";
 import styles1 from '../Navbar/Navbar.module.css'
 import Image from 'next/image'
 export default function Inventario({ el }) {
-  console.log(el);
   return (
     <>
       {/* <div style={{height:'500px', width:'500px'}}>
@@ -23,6 +22,10 @@ export default function Inventario({ el }) {
               <Image
               alt='/images/serpiente.png' src={'/images/serpiente.png'} width={230}height={200} className={styles.img} 
               />
+              {/* <div style={{background:'#453072', width:'70%'}}>
+              <h4 style={{color:'white'}}>Acero Inoxidable</h4>
+
+              </div> */}
           </div>
           
           <div className={styles.description}>
@@ -30,6 +33,9 @@ export default function Inventario({ el }) {
             <h1 style={{margin:'5px 0'}}>${el.precio}</h1>
             <p>
               {el.descripcion}
+            </p>
+            <p>
+              Acero Inoxidable
             </p>
             {/* <IoIosCart fontSize={'30px'}/> */}
             <button style={{width:'90%', marginBottom:'0'}} className={styles1.button}>Comprar</button>

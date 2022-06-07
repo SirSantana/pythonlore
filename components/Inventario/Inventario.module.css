@@ -64,13 +64,14 @@
 .photo {
       
     padding: 10px;
+    padding-top: 30px;
     width: 45%;
     text-align: center;
     float: left;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: fit-content;
+    height: 100%;
   }
   .img { 
       max-height: 240px;
