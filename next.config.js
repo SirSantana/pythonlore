@@ -15,6 +15,7 @@ const nextConfig = {
   },
   images: {
     domains: ['https://pythonjoyas.vercel.app'],
+    subDomains: ['https://pythonjoyas.vercel.app/api/products']
   },
 
 }
