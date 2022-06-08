@@ -4,7 +4,7 @@ import { IoIosCart } from "react-icons/io";
 import styles1 from '../Navbar/Navbar.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-import { convertToPath } from "../../libs/items";
+import { convertToPath } from "../../lib/items";
 export default function Inventario({ el }) {
   return (
     <>

@@ -1,4 +1,4 @@
-// const { connectToDatabase } = require('../../../libs/dbConnect');
+// const { connectToDatabase } = require('../../../lib/dbConnect');
 // const ObjectId = require('mongodb').ObjectId;
 
 // export default async function handler(req, res) {

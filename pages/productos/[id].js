@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import Layout from "../../components/Layout/Layout";
 import Productos from "../../components/Productos";
-import { getItemData, getPathsIds } from "../../libs/items"
+import { getItemData, getPathsIds } from "../../lib/items"
 import { products } from "../../services/products";
 
 
