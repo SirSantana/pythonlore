@@ -3,7 +3,7 @@ import styles1 from '../Navbar/Navbar.module.css'
 import Image from 'next/image'
 import styles from "../Inventario/Inventario.module.css";
 import Link from 'next/link'
-import { convertToPath } from '../../libs/items';
+import { convertToPath } from '../../lib/items';
 
 export default function Productos({el}){
     return(
