@@ -10,7 +10,7 @@ export default function Carrousel() {
   return (
     <>
       
-      <Carousel showArrows={true}  autoPlay  interval={3000}infiniteLoop={1}>
+      <Carousel showArrows={true} showThumbs={false} autoPlay  interval={3000}infiniteLoop={1}>
         <div >
           <Image
             src={"/images/collar cactus acero frambuesa.jpg"}

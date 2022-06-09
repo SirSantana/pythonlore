@@ -1,17 +1,19 @@
-import Link from 'next/link'
-import Image from 'next/image'
+import Link from "next/link";
+import Image from "next/image";
+import styles from "./LogoInicio.module.css";
 
-
-export default function LogoInicio(){
-    return(
-        <Link href={'/'}>
-          <Image
-          src={"/images/serpiente.png"}
-          width={180}
-          height={130}
-          alt={"Logo TH"}
-          style={{cursor:'pointer'}}
-        />
-          </Link>
-    )
+export default function LogoInicio() {
+  return (
+    <div style={{display:'block',}} className={styles.image}>
+      <Link href={"/"}>
+      <Image
+      quality={100}
+        src={"/images/serpiente.png"}
+        width={180}
+        height={130}
+        alt={"Logo TH"}
+      />
+    </Link>
+    </div>
+  );
 }

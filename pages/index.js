@@ -39,7 +39,7 @@ export default function Home() {
           alt={"Logo TH"}
         />
         </div> */}
-  <div style={{marginBottom:'50px'}}>
+  <div style={{marginBottom:'20px'}}>
   <Carrousel/>
 
   </div>
