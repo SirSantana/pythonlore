@@ -16,7 +16,7 @@ export default function Inventario({ el }) {
         <h2><b>Unidades</b>{el?.unidades}</h2>
         </div> */}
 
-     <Link href={`/productos/${convertToPath(el.nombre)}`}>
+     {/* <Link href={`/productos/${convertToPath(el.nombre)}`}> */}
      <a>
      <div
         className={styles.container}
@@ -47,7 +47,7 @@ export default function Inventario({ el }) {
         </div>
       </div>
      </a>
-     </Link> 
+     {/* </Link>  */}
     </>
   );
 }

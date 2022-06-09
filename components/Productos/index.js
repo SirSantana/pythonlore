@@ -6,6 +6,7 @@ import Link from 'next/link'
 import { convertToPath } from '../../lib/items';
 
 export default function Productos({el}){
+  console.log(el);
     return(
         <>
       {/* <div style={{height:'500px', width:'500px'}}>
@@ -16,7 +17,7 @@ export default function Productos({el}){
         <h2><b>Unidades</b>{el?.unidades}</h2>
         </div> */}
 
-      <Link href={`/productos/${convertToPath(el.nombre)}`}>
+      {/* <Link href={`/productos/${convertToPath(el.nombre)}`}> */}
       <a>
       <div
         className={styles.container}
@@ -24,7 +25,7 @@ export default function Productos({el}){
         <div className={styles.card}>
           <div className={styles.photo}>
               <Image
-              alt='/images/serpiente.png' src={'/images/serpiente.png'} className={styles.img} width={230}height={200}
+              alt={el.img} src={el?.img} className={styles.img} width={230}height={200}
               />
           </div>
           <div className={styles.description}>
@@ -39,7 +40,7 @@ export default function Productos({el}){
         </div>
       </div>
       </a>
-      </Link>
+      {/* </Link> */}
     </>
     )
 }

@@ -13,36 +13,45 @@ export default function Carrousel() {
       <Carousel showArrows={true} centerSlidePercentage={60} centerMode={true} showThumbs={false} autoPlay  interval={3000}infiniteLoop={1}>
         <div >
           <Image
-            src={"/images/imgCar2.png"}
-            width={200}
-            height={180}
+            src={"/images/collar cactus acero frambuesa.jpg"}
+            width={300}
+            height={280}
             alt={"/imgCar2.png"}
             className={styles.image}
           />
         </div>
         <div>
           <Image
-            src={"/images/imgCar1.png"}
-            width={200}
-            height={180}
+            src={"/images/collar dije dino acero frambuesa.jpg"}
+            width={300}
+            height={280}
             alt={"imgCar1.png"}
             className={styles.image}
           />
         </div>
         <div>
           <Image
-            src={"/images/imgCar.png"}
-            width={200}
-            height={180}
+            src={"/images/collar osito verde acero frambuesa.jpg"}
+            width={300}
+            height={280}
             alt={"/imgCar.png"}
             className={styles.image}
           />
         </div>
         <div>
           <Image
-            src={"/images/imgCar3.png"}
-            width={200}
-            height={180}
+            src={"/images/collar palmera acero frambuesa.jpg"}
+            width={300}
+            height={280}
+            alt={"imgCar3.png"}
+            className={styles.image}
+          />
+        </div>
+        <div>
+          <Image
+            src={"/images/collar serpiente acero frambuesa.jpg"}
+            width={300}
+            height={280}
             alt={"imgCar3.png"}
             className={styles.image}
           />

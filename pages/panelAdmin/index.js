@@ -8,6 +8,7 @@ export default function PanelAdmin(){
     useEffect(()=>{
         setUser(localStorage.getItem('profile'))
     },[])
+    console.log(user);
     return(
         <>
         <Layout>

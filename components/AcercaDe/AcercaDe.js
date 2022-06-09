@@ -14,6 +14,7 @@ export default function AcercaDe() {
   const [user, setUser] = useState(null);
   const [visible, setVisible] = useState(true);
   const router = useRouter();
+  const userr = {Admin: 'LoreLita'}
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
@@ -24,7 +25,7 @@ export default function AcercaDe() {
       "undefined"
     ) {
       console.log("Hola");
-      localStorage.setItem("profile", "Admin");
+      localStorage.setItem("profile",JSON.stringify({result:userr}));
       router.push("/panelAdmin");
     }
   };

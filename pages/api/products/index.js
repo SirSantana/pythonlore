@@ -9,7 +9,8 @@ export default function handler(req, res){
                 precio:"15.000",
                 unidades:"3",
                 referencia:"1234",
-                id:1
+                id:1,
+                img:'/images/collar cactus acero frambuesa.jpg'
             },
             {
                 nombre:"Collar Osito",
@@ -17,7 +18,8 @@ export default function handler(req, res){
                 precio:"13.000",
                 unidades:"2",
                 referencia:"2131",
-                id:2
+                id:2,
+                img:'/images/collar osito verde acero frambuesa.jpg'
         
             },
             {
@@ -26,7 +28,9 @@ export default function handler(req, res){
                 precio:"12.000",
                 unidades:"5",
                 referencia:"2323",
-                id:3
+                id:3,
+                img:'/images/collar palmera acero frambuesa.jpg'
+
         
             }
         
