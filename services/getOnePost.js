@@ -1,5 +1,5 @@
 
-export default async function getOnePost1(){
+export default async function getOnePost(){
     const res = await fetch("https://pythonjoyas.vercel.app/api/products")
     try {
         console.error("Response body1:", res);  

@@ -18,7 +18,7 @@ export default function Producto({ el }) {
             <h1 style={{ margin: "5px 0" }}>${el.precio}</h1>
             <p>{el.descripcion}</p>
             {/* <IoIosCart fontSize={'30px'}/> */}
-            <Link href={el?.pago || "/home"}>
+            <Link href={el?.pago}>
               <a>
                 <button
                   className={styles1.button}

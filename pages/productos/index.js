@@ -3,6 +3,7 @@ import Layout from "../../components/Layout/Layout";
 import Productos from "../../components/Productos";
 import { products } from "../../services/products";
 export default function ProductosPage(){
+    console.log(products);
     return(
         <>
         <Layout title={'Productos | Python'}>

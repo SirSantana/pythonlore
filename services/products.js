@@ -18,7 +18,8 @@ export const products=[
         unidades:"2",
         referencia:"2131",
         id:2,
-        img:'/images/collar osito verde acero frambuesa.jpg'
+        img:'/images/collar osito verde acero frambuesa.jpg',
+        pago: "https://biz.payulatam.com/B0ed8278687EC4C"
 
 
     },
@@ -29,7 +30,8 @@ export const products=[
         unidades:"5",
         referencia:"2323",
         id:3,
-        img:'/images/collar palmera acero frambuesa.jpg'
+        img:'/images/collar palmera acero frambuesa.jpg',
+        pago: "https://biz.payulatam.com/B0ed8278687EC4C"
 
 
     }
