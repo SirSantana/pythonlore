@@ -4,7 +4,7 @@ import styles from "./LogoInicio.module.css";
 
 export default function LogoInicio() {
   return (
-    <div style={{display:'block',}} className={styles.image}>
+    <div style={{display:'block', cursor:'pointer'}} className={styles.image}>
       <Link href={"/"}>
       <Image
       quality={100}
