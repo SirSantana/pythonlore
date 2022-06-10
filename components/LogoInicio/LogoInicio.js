@@ -8,7 +8,7 @@ export default function LogoInicio() {
       <Link href={"/"}>
       <Image
       quality={100}
-        src={"/images/serpiente.png"}
+        src={"/images/LOGO PAGINA PYTHON.png"}
         width={180}
         height={130}
         alt={"Logo TH"}

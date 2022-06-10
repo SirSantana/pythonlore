@@ -19,14 +19,13 @@ export default function Layout({children, title, description}){
         {children}<Navbar/></main>
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by colMotors
-          {/* <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span> */}
+          <span className={styles.logo}>
+            <Image src="/images/logoTHsinfondo.png"  alt="Vercel Logo" width={72} height={60} />
+          </span>
         </a>
       </footer>
         </>
