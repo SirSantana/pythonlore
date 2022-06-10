@@ -6,6 +6,7 @@ import styles from "../Inventario/Inventario.module.css";
 import Link from 'next/link'
 
 export default function Productos({el}){
+  console.log(el);
     return(
         <>
       <a>

@@ -28,7 +28,7 @@ export default function Carrousel() {
           
         </div>
         <div style={{cursor:'pointer'}}>
-          <Link href={"/productos/1234"}>
+          <Link href={"/productos/2328"}>
           <a>
           <Image
             src={"/images/collar dije dino acero frambuesa.jpg"}
@@ -70,7 +70,7 @@ export default function Carrousel() {
           
         </div>
         <div style={{cursor:'pointer'}}>
-          <Link href={"/"}>
+          <Link href={"/productos/2329"}>
           <a>
           <Image
             src={"/images/collar serpiente acero frambuesa.jpg"}
