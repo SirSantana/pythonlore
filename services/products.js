@@ -8,8 +8,8 @@ export const products=[
         unidades:"3",
         referencia:"1234",
         id:1,
-        img:'/images/collar cactus acero frambuesa.jpg'
-
+        img:'/images/collar cactus acero frambuesa.jpg',
+        pago: "https://biz.payulatam.com/B0ed8278687EC4C"
     },
     {
         nombre:"Collar Osito",

@@ -1,33 +1,30 @@
-import { useRouter } from "next/router";
 import Layout from "../../components/Layout/Layout";
-import Productos from "../../components/Productos";
-import { getItemData, getPathsIds } from "../../lib/items"
-import { products } from "../../services/products";
+import Producto from "../../components/Productos/product";
+import { connectToDatabase } from "../../lib/dbConnect";
 
-
-export default function Product(){
-  // const {data} = post
-    return( 
-        <Layout title={'Product | Python'}>
-         {/* <Productos el={data} key={data.id}/> */}
-        </Layout>
-    )
+export default function Product({ posts }) {
+  return (
+    <Layout title={"Product | Python"}>
+      <Producto el={posts} />
+    </Layout>
+  );
 }
-// export async function getStaticPaths() {
-//     const paths = await getPathsIds();
-//     return {
-//       paths,
-//       fallback:false
-//     }
-//   }
+export async function getServerSideProps({ query, params }) {
+  let { db } = await connectToDatabase();
+  try {
+    let res = await db
+      .collection("Productos")
+      .findOne({ referencia: query.id.toString() });
 
-// export async function getStaticProps({params}){
-//   const id = params.id
-//   const post = await getItemData(id)
-//   return{
-//     props:{
-//       post
-//     }
-//   }
-// }
+    const posts = await res;
 
+    posts._id = posts._id.toString();
+    posts.nombre = posts.nombre.toString();
+
+    return {
+      props: { posts },
+    };
+  } catch (error) {
+    console.log(error);
+  }
+}
