@@ -14,7 +14,7 @@ const nextConfig = {
 
   },
   images: {
-    domains: ['https://pythonjoyas.vercel.app'],
+    domains: ['https://python-hazel.vercel.app/'],
   },
 
 }
