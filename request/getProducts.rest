@@ -1,1 +1,1 @@
-GET https://python-hazel.vercel.app/api/products/1234
+GET https://pythonjoyas.vercel.app/api/products

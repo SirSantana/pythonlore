@@ -14,13 +14,13 @@ export async function getServerSideProps({ query, params }) {
   try {
     let res = await db
       .collection("Productos")
-      .find();
+      .findOne({ referencia: query.id.toString()});
 
     const posts = await res;
     console.log(res)
 
-    posts._id = posts._id.toString();
-    posts.nombre = posts.nombre.toString();
+    posts._id = await posts._id.toString();
+    posts.nombre =await posts.nombre.toString();
 
     return {
       props: { posts },

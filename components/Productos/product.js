@@ -4,6 +4,7 @@ import styles from "../Inventario/Inventario.module.css";
 import styles1 from '../Navbar/Navbar.module.css'
 
 export default function Producto({ el }) {
+  console.log(el);
   return (
     <>
       <div className={styles.container}>

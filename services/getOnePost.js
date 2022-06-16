@@ -1,6 +1,6 @@
 
 export default async function getOnePost(){
-    const res = await fetch("https://python-hazel.vercel.app/api/products")
+    const res = await fetch("https://pythonjoyas.vercel.app/api/products")
     try {
         console.error("Response body1:", res);  
 
