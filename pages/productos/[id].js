@@ -14,9 +14,10 @@ export async function getServerSideProps({ query, params }) {
   try {
     let res = await db
       .collection("Productos")
-      .findOne({ referencia: query.id.toString() });
+      .find();
 
     const posts = await res;
+    console.log(res)
 
     posts._id = posts._id.toString();
     posts.nombre = posts.nombre.toString();
